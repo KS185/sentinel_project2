@@ -1,0 +1,8 @@
+sentinelsat
+scikit-learn
+requests
+rasterio
+pandas
+numpy
+matplotlib
+geopandas
