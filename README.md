@@ -1,6 +1,7 @@
-# sentinel_project
+# sentinel_project - purpose
 Analyze Sentinel-2 data of Frankfurt-area, including Frankfurt, Mainz,
-Wiesbaden and Darmstadt
+Wiesbaden and Darmstadt. Purpose was to find out which amount of vegetated
+area was lost between April 2019 to April 2020.
 
 ## Packages:
 - Sentinelsat: for downloading data from Copernicus Open Access Hub
@@ -15,7 +16,7 @@ reflects less red and more NIR than areas with less vegetation.
 Result of this calculation is are values between -1 and 1, where positive
 values corresponds to green areas.
 
-### used data
+### Used data
 The datasets used are of Level2A, which contains Bottom of Atmosphere (BOA)
 data. Each of it contains 13 frequency bands. Four of them which are used in 
 the project are:  
